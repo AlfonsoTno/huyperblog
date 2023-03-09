@@ -1,0 +1,24 @@
+    >>> from objetos_documentables import User
+    >>> from objetos_documentables import palindromo
+
+    >>> palindromo('Anita lava la tina')
+    True
+
+    >>> palindromo ('CodigoFacilito')
+    False
+
+    >>> sentence = 'Oso'
+    >>> palindromo (sentence)
+    True
+
+    >>> username = 'Alfonso'
+    >>> password = 'password123'
+
+    >>> user = User(username, password)
+
+    >>> user.username == username
+    True
+
+
+    >>> user.password == password
+    True
