@@ -16,8 +16,8 @@ print(ultimo_curso)
 print(len(lista_cursos))
 
 #[inicio:fin:salto]
-sub_lista = lista_cursos[0:3]
-print(sub_lista)
+sub_lista = lista_cursos[-3:]
+print(f'sub lista {sub_lista}')
 
 
 
